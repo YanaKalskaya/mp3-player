@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3-плеер</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a31d120e88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="player">
+
+        <p class="name">Now You're Gone</p>
+        <p class="author">Basshunter</p>
+        <audio id="audio" src="songs/Basshunter_NowYou'reGone.mp3"></audio>
+        <div id="controls">
+            <div class="icons">
+                <div class="prev"><i class="fa-solid fa-backward-step fa-2xl"></i></div>
+                <div class="play"><i class="fa-solid fa-play fa-2xl"></i></div>
+                <div class="next"><i class="fa-solid fa-backward-step fa-flip-horizontal fa-2xl"></i>
+                </div>
+                <div class="pause invisible"><i class="fa-solid fa-pause fa-2xl"></i></div>
+            </div>
+            <div class="audio-track">
+                <div class="time"></div>
+            </div>
+        </div>
+        <!-- <div class="volume">
+            <i class="fa-solid fa-volume-xmark fa-xl"></i>
+            <i class="fa-solid fa-volume-low fa-xl"></i>
+            <i class="fa-solid fa-volume-high fa-xl"></i>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="scripts/script.js"></script> -->
+</body>
+
+</html>
